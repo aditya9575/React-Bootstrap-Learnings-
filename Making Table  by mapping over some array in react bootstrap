@@ -1,4 +1,15 @@
-
+***********************************************************************************************************************************************************************
+Steps->                                                                                                                                                               *
+1)import Table                                                                                                                                                        *
+2)Now there are 2 sections to a table i.e -> head and body                                                                                                            *
+3)Start by Table tag and marking it responsive                                                                                                                        *
+4)Then thead -> tr -> th                                                                                                                                              *
+[This will make a table heading]                                                                                                                                      *
+5)Then tbody -> tr -> td                                                                                                                                              *
+[This will make the coloumn content in the table's body part                                                                                                          *    
+                                                                                                                                                                      *  
+[Note in bootstrap the grid formatting is done by screen pixel division sm for small screens md for medium screens & lg for large screens and 6 is 2 by 2 division]   *
+***********************************************************************************************************************************************************************
 
 import React from 'react';
 import Table from 'react-bootstrap/Table';
